@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: "/2.jpg"
+heroImage: "/imgs/7.jpg"
 heroText: "Xiao Qin"
 bgImage: ""
 bgImageStyle: {}

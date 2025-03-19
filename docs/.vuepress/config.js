@@ -16,8 +16,8 @@ module.exports = {
     },
     // 项目开始时间，只填写年份
     startYear: '2025',
-    logo: "/1.jpg", // 导航栏logo
-    authorAvatar: "/1.jpg", // 作者头像
+    logo: "/imgs/7.jpg", // 导航栏logo
+    authorAvatar: "/imgs/7.jpg", // 作者头像
     author: "小秦", // 作者
     type: "blog", // blog类型
     docsDir: "./docs", // 文档目录
