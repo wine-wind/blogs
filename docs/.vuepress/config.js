@@ -10,9 +10,27 @@ module.exports = {
   themeConfig: {
     noFoundPageByTencent: true, // 是否开启404页面
     keyPage: {
-      keys: ['e10adc3949ba59abbe56e057f20f883e'], // 123456 // 1.3.0 版本后需要设置为密文
+      // keys: ['e10adc3949ba59abbe56e057f20f883e'], // 123456 // 1.3.0 版本后需要设置为密文
       color: '#42b983', // 登录页动画球的颜色
       lineColor: '#42b983' // 登录页动画线的颜色
+    },
+    modePicker: false, // 是否展示主题切换按钮
+    subSidebar: 'auto',//在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
+    // vssueConfig: { // 本地调试使用
+    //   platform: 'github',
+    //   owner: 'wine-wind',
+    //   repo: 'vssue-test',
+    //   clientId: 'Ov23liscO9tEFocuS0CF',
+    //   clientSecret: 'd7db271dc537679723f62dfe318492987d3abef2',
+    //   // autoCreateIssue: true
+    // },
+    vssueConfig: { // 线上使用
+      platform: 'github',
+      owner: 'wine-wind',
+      repo: 'vssue',
+      clientId: 'Ov23li5asS1KYpxD3LkQ',
+      clientSecret: '77fc75a58cd4ea445d20cd1b57c572c73984126c',
+      // autoCreateIssue: true
     },
     // 项目开始时间，只填写年份
     startYear: '2025',
