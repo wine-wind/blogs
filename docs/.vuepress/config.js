@@ -29,15 +29,25 @@ module.exports = {
         items: [
           { text: "Vue", link: "https://v2.cn.vuejs.org/" },
           { text: "GitHub", link: "https://github.com/", icon: "reco-github" },
+          { text: "Gitee", link: "https://gitee.com/", icon: "reco-gitee" },
           {
             text: "前端组件",
             items:[
-              { text: "Element", link: "https://element.eleme.cn/#/zh-CN" },
+              { text: "Element", link: "https://element.eleme.cn/#/zh-CN",icon: "reco-element" },
               { text: "Vant", link: "https://vant-ui.github.io/vant/#/zh-CN" },
               { text: "uView", link: "https://uviewui.com/" },
-              { text: "微信官方文档", link: "https://developers.weixin.qq.com/doc/" }
+              { text: "微信官方文档", link: "https://developers.weixin.qq.com/doc/" },
             ]
-          }
+          },
+          {
+            text: "可视化组件",
+            items: [
+              { text: "ECharts", link: "https://echarts.apache.org/zh/index.html" },
+              { text: "AntV", link: "https://antv.vision/zh" },
+              { text: "G2Plot", link: "https://g2plot.antv.vision/zh" },
+              { text: "G6", link: "https://g6.antv.vision/zh" }
+            ]
+          },
         ]
       }
     ],

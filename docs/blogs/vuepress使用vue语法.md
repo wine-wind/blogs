@@ -7,7 +7,7 @@ tags:
   - VuePress
 sidebar: 'auto'
 publish: true
-sticky: 2
+sticky: 1
 ---
 
 # <ClientOnly> <press></press> </ClientOnly>
